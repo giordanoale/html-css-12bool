@@ -5,7 +5,10 @@
   vertical-align: middle;
 }
 
-.nested {
-  padding: 2px;
-  border: 1px solid white;
+.container .small {
+  padding: 5px;
+}
+
+.small [class*="col-"] {
+  border: 1px solid #fff;
 }

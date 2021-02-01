@@ -8,12 +8,12 @@
 
 /* debug */
 
-.debug .container {
+.container .debug {
   border: 1px solid black;
+  height: 100px;
 }
 
 .debug [class*="col-"] {
-  height: 100px;
   background-color: rgba(254, 193, 203, 0.5);
   border: 1px solid black;
 }
